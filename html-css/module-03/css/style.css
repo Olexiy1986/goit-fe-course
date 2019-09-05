@@ -1,4 +1,13 @@
-p{
-    color: red;
-    
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 900px;
+  background-color: teal;
+  margin: 0 avto;
 }
