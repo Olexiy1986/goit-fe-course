@@ -7,15 +7,15 @@ html {
   box-sizing: inherit;
 }
 header {
-  padding-bottom: 104px;
-  padding-top: 77px;
+  padding-bottom: 98px;
+  padding-top: 72px;
 }
 .container {
   width: 900px;
   margin: 0 auto;
 }
 .site-navigation li {
-  margin-right: 103px;
+  margin-right: 110px;
   display: inline-block;
   font-size: 16px;
 }
@@ -23,53 +23,69 @@ header {
   margin-right: 0;
 }
 .site-navigation {
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-size: 16px;
 }
-a {
+.site-navigation a:hover,
+.site-navigation a:focus {
   text-decoration: none;
+  display: block;
+  line-height: 24px;
+  color: blue;
 }
 .content-list {
-  margin-right: 28px;
-  display: inline-block;
   width: 420px;
+  margin-right: 30px;
+  display: inline-block;
+  margin-bottom: 130px;
+  text-align: left;
 }
 .content {
   font-size: 0;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 57px;
+}
+.content-name {
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 26px;
 }
 .content-list:nth-child(2n) {
   margin-right: 0;
 }
-img {
+.content-list:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+.content-foto {
   width: 420px;
   height: 280px;
+  display: block;
+  margin-bottom: 30px;
 }
 button {
+  display: block;
   text-align: center;
-  padding: 15px 15px;
-  margin-left: 375px;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  padding: 19px 32px;
+  margin: 0;
+  margin-left: 358px;
+  margin-bottom: 70px;
   width: 165px;
   height: 60px;
-  border: 1px solid;
-  background-color: white;
-  font-size: 30px;
-}
-h2 {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  font-size: 30px;
+  font-size: 20px;
+  border: 1px solid rgb(98, 98, 98);
+  cursor: pointer;
 }
 .text {
   text-align: left;  
   font-size: 14px;
+  margin: 0;
 }
 .content-list-item {
   font-size: 14px;
-}
-ul {
-  padding: 0;
   margin: 0;
+  margin-bottom: 26px;
 }
