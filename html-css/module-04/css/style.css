@@ -49,23 +49,23 @@ html {
     .site-navigation li {
       display: block;
       float: left;
-      font-size: 10px;
+      font-size: 14px;
     }
     .navigation {
       text-decoration: none;
       text-transform: uppercase;
       display: block;
       font-family: 'Open Sans', sans-serif;
+      color: #0f0101;
     }
     .site-navigation a:hover,
     .site-navigation a:focus {
     text-decoration: none;
-    display: block;
-    color: blue;
+    color: #1abc9c;
     }
     .content-list {
     width: 255px;
-    height: 322;
+    height: 322px;
     display: block;
     float: left;
     margin-bottom: 30px;
@@ -85,14 +85,20 @@ html {
     }
     .content-products {
     padding: 0;
-    margin-bottom: 98px;
     margin-top: 0;
     }
+    section {
+      padding-bottom: 100px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      }
     .product-foto {
       width: 255px;
       height: 282px;
       display: block;
-      /* background-color: rgb(192, 225, 230); */
     }
     h2 {
       text-align: center;
@@ -123,6 +129,7 @@ html {
       padding-left: 14px;
       padding-top: 11px;
       font-family: 'Roboto', sans-serif;
+      margin: 0;
     }
     .price {
       display: block;
@@ -134,6 +141,7 @@ html {
       background-color: gray;
       text-align: center;
       padding-top: 11px;
+      margin: 0;
     }
     .news-foto {
       display: block;
@@ -187,7 +195,7 @@ html {
     .news-list {
       margin-right: 30px;
     }
-    .news-list:first-child {
+    .news-list:last-child {
       margin-right: 0;
     }
     .news {
