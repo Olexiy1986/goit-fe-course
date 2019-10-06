@@ -162,7 +162,7 @@ html {
     opacity: 1;
     }
     .content-list:hover .name-products {
-      background-color: rgb(166, 227, 218);
+      background-color: #1abc9c;
     }
     .content-list:hover .price {
       background-color: rgb(182, 231, 225);
@@ -263,14 +263,25 @@ html {
     .overlay button {
       display: block;
       float: left;
+      background-color: transparent;
     }
     .overlay button:hover .overlay {
       background-color: rgb(0, 0, 0);
       opacity: 0.549; 
     }
+    .heart:hover {
+      background-color: #1abc9c;
+    }
+    .clock:hover {
+      background-color: #1abc9c;
+    }
+    .cart:hover {
+      background-color: #1abc9c;
+    }
+    .direct:hover {
+      background-color: #1abc9c;
+    }
   .direct {
-    background-color: rgb(166, 227, 218);
-    opacity: 1;
     padding: 0;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
@@ -280,12 +291,13 @@ html {
     width: 48px;
     height: 48px;
     background-image: url('../jpeg/icon-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .cart {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: rgb(0, 0, 0);
     padding: 0;
     margin-left: 23px;
     width: 164px;
