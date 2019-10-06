@@ -67,7 +67,7 @@ html {
       top: 50%;
       transform: translate(-50%, -50%);
       }
-    .slider-next {
+      .slider-next {
       display: inline-block;
       width: 104px;
       height: 104px;
@@ -92,6 +92,18 @@ html {
     .container {
     width: 1110px;
     margin: 0 auto;
+    }
+    .product-container {
+      width: 1110px;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      display: block;
+      padding-top: 100px;
+      margin: 0 auto;
+    }
+    .banner-product {
+      background-color: #e9f0fd;
     }
     .logo {
     display: block;
@@ -195,9 +207,9 @@ html {
       margin: 0 auto;
       margin-top: 32px;
     }
-    .title {
+    /* .title {
       margin-top: 90px;
-    }
+    } */
     .name-products {
       font-size: 18px;
       text-transform: uppercase;
