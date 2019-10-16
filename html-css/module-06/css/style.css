@@ -190,7 +190,7 @@
           position: relative;
         }
         .team-list:hover .overlay {
-          opacity: 0.9;
+          opacity: 1;
           transform: translate(-10px, -10px);
         }
         .team-list:hover .team-foto {
@@ -243,9 +243,9 @@
           padding: 0;
           margin: 0;
           opacity: 0;
-          background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-          background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-          background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+          background-image: -moz-linear-gradient( 90deg, rgb(252,227,138,0.8) 0%, rgb(243,129,129,0.8) 100%);
+          background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138,0.8) 0%, rgb(243,129,129,0.8) 100%);
+          background-image: -ms-linear-gradient( 90deg, rgb(252,227,138,0.8) 0%, rgb(243,129,129,0.8) 100%);
           transition: opacity 200ms linear;
         }
         .list-icon {
@@ -296,10 +296,7 @@
           padding-bottom: 15px;
           border-top: 1px solid rgb(153, 153, 153);
         }
-        .footer-email {
-          display: flex;
-        }
-        .subscribe {
+      input[type="submit"] {
           width: 150px;
           height: 40px;
           padding: 0;
@@ -313,7 +310,25 @@
           background-color: rgb(149, 225, 211);
           border: 0;
         }
-        .email {
+        input[type="submit"]:hover {
+          cursor: pointer;
+        }
+        input[type="text"] {
+          font-size: 15px;
+          font-family: 'Roboto';
+          color: rgb(153, 153, 153);
+          font-style: italic;
+          line-height: 1.6;
+          text-transform: capitalize; 
+          padding: 0;
+        }
+        input {
+          height: 40px;
+          line-height: 30px;
+          width: 230px;
+          box-shadow: none;
+        }
+        /* .email {
           font-size: 15px;
           font-family: 'Roboto';
           color: rgb(153, 153, 153);
@@ -326,7 +341,7 @@
           padding-top: 10px;
           border-width: 1px;
           border-color: rgb(153, 153, 153);
-        }
+        } */
         .text-footer {
           font-size: 14px;
           font-family: "Montserrat";
