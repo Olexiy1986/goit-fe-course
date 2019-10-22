@@ -4,32 +4,32 @@
   font-style: normal;
   font-weight: 400;
   src: local('Qwigley'), local('Qwigley-Regular'),
-    url('../fonts/qwigley-v9-latin-regular.woff2') format('woff2'),
-    url('../fonts/qwigley-v9-latin-regular.woff') format('woff');
+       url('../fonts/qwigley-v9-latin-regular.woff2') format('woff2'),
+       url('../fonts/qwigley-v9-latin-regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
-    url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), 
-    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+       url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), 
+       url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Signika';
   font-style: normal;
   font-weight: 400;
   src: local('Signika Regular'), local('Signika-Regular'),
-    url('../fonts/signika-v10-latin-regular.woff2') format('woff2'), 
-    url('../fonts/signika-v10-latin-regular.woff') format('woff'); 
+       url('../fonts/signika-v10-latin-regular.woff2') format('woff2'), 
+       url('../fonts/signika-v10-latin-regular.woff') format('woff'); 
 }
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
   src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-    url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'), 
-    url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
+       url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
 }
     html {
     box-sizing: border-box;
@@ -84,8 +84,8 @@
         }
         .site-navigation .navigation:hover,
         .site-navigation .navigation:focus {
-        text-decoration: none;
-        color:rgb(254, 209, 54);
+         text-decoration: none;
+         color:rgb(254, 209, 54);
         }
       .work {
         font-size: 40px;
@@ -205,6 +205,10 @@
       }
       .message {
         display: block;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
         margin: 0 auto;
         width: 240px;
         height: 66px;
@@ -229,6 +233,7 @@
       .form {
         display: flex;
         justify-content: space-between;
+        position: relative;
       }
       .info {
         display: flex;
