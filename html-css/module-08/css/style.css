@@ -28,9 +28,8 @@ html {
   box-sizing: border-box;
 }
 .cover {
-  width: 320px;
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 82px;
   background-image: url('../jpeg/Vector Smart Object.jpg');
   background-size: cover;
   background-position: center; 
@@ -53,7 +52,8 @@ header {
 .container {
   width: 320px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 56px 20px;
+  padding-top: 20px;
 }
 .site-navigation {
   padding: 0;
@@ -91,6 +91,9 @@ header {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .find {
   font-size: 18px;
@@ -100,7 +103,7 @@ header {
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 button {
   display: block;
@@ -115,7 +118,6 @@ button {
   font-weight: bold;
   line-height: 1.2;
   padding: 10px 45px;
-  margin-bottom: 118px;
 }   
 .partners {
   list-style: none;
@@ -143,7 +145,7 @@ button {
   line-height: 1.2;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .other {
   font-size: 14px;
@@ -157,7 +159,6 @@ button {
   padding: 10px 45px;
   margin: 0 auto;
   width: 280px;
-  margin-bottom: 58px;
 }
 .content-foto {
   display: block;
@@ -284,6 +285,7 @@ button {
   .container {
     width: 748px;
     padding: 0;
+    padding-bottom: 40px;
     margin: 0 auto;
   }
   .partners {
@@ -300,8 +302,7 @@ button {
     margin-bottom: 10px;
   }
   .cover {
-    width: 748px;
-    padding-bottom: 116px;
+    padding-bottom: 194px;
   }
   .page-nav {
     display: flex;
@@ -331,14 +332,15 @@ button {
     padding: 10px 20px;
   }
 }
-@media (min-width:1440px) {
+@media (min-width:960px) {
   .container {
     width: 942px;
     padding: 0;
+    padding-bottom: 73px;
     margin: 0 auto;
   }
   .cover {
-    width: 1440px;
+    padding-bottom: 162px;
   }
   .partners {
     justify-content: space-between;
@@ -352,289 +354,18 @@ button {
   .other {
     margin-top: 30px;
   }
+  .dreams {
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 100px;
+  }
+  .find {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 36px;
+  }
+  .meet {
+    padding-bottom: 50px;
+    margin: 0;
+  }
 }
-
-
-
-
-
-/* .Shape_170 {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: 192px;
-  top: 1490px;
-  width: 17px;
-  height: 16px;
-  z-index: 49;
-}
-
-.Ellipse_2 {
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  background-color: rgb(255, 78, 80);
-  position: absolute;
-  left: 181px;
-  top: 755px;
-  width: 37px;
-  height: 37px;
-  z-index: 23;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .logo {
-      display: block;
-      font-size: 26px;
-      text-decoration: none;
-      text-transform: capitalize;
-      color: rgb(254, 209, 54);
-      font-family: 'Qwigley';
-      }
-      .page-nav {
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 39px;
-        padding-bottom: 100px;
-        }
-      .site-navigation {
-      display: flex;
-      min-width: 485px;
-      padding: 0;
-      margin: 0;
-      padding-top: 7px;
-      justify-content: space-between;
-      }
-      .site-navigation li {
-      display: block;
-      font-size: 14px;
-      text-transform: uppercase;
-      font-family: 'Montserrat';
-      font-weight: 400;
-      }
-      .navigation {
-        display: block;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-        color: black;
-        line-height: 1.2;
-        transition: color 200ms linear;
-        }
-        .site-navigation .navigation:hover,
-        .site-navigation .navigation:focus {
-         text-decoration: none;
-         color:rgb(254, 209, 54);
-        }
-      .work {
-        font-size: 40px;
-        font-weight: 700;
-        font-family: 'Montserrat';
-        text-transform: uppercase;
-        text-align: center;
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 24px;
-        color: #333333;
-      }
-      .title-services {
-        padding: 0;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 80px;
-        font-family: 'Signika';
-        font-weight: 400;
-        font-size: 16px;
-        color: rgb(119, 119, 119);
-      }
-      .services {
-        margin: 0;
-        display: flex;
-        padding: 0;
-        justify-content: space-between;
-      }
-      .services-list { 
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        width: 290px;
-        margin-bottom: 110px;
-        text-align: center;
-      }
-      .services-list::before {
-        display: block;
-        content: '';
-        width: 73px;
-        height: 73px;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-style: solid;
-        border-width: 3px;
-        border-color: rgb(254, 209, 54);
-        border-radius: 50%; 
-        margin: 0 auto;
-        margin-bottom: 30px;
-      }
-      .icon-1::before {
-        background-image: url('../jpeg/icon/Icon-Basket.png');
-      }     
-      .icon-2::before {
-        background-image: url('../jpeg/icon/Icon-Laptop.png');
-      }   
-      .icon-3::before {
-        background-image: url('../jpeg/icon/Icon-Locked.png');
-      }
-      .content {
-        display: block;
-        width: 940px;
-        margin: 0 auto;
-        padding-top: 110px;
-        padding-bottom: 115px;
-      }
-      .name-services {
-        margin-bottom: 20px;
-        margin-top: 0;
-        text-transform: uppercase;
-        font-family: 'Montserrat'; 
-        font-weight: bold;
-        font-size: 14px;
-        color: rgb(51, 51, 51);
-      }
-      .text-services {
-        margin: 0;
-        font-family: 'Roboto Slab';
-        font-size: 14px;
-        font-weight: 400;
-        color: rgb(153, 153, 153);
-      }
-      .contact {
-        font-size: 40px;
-        font-family: 'Montserrat';
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bold;
-        line-height: 1.2;
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 24px;
-        color: rgb(255, 255, 255);
-      }
-      .text-team {
-        text-align: center;
-        font-size: 16px;
-        font-family: 'Signika';
-        font-weight: 400;
-        color: rgb(119, 119, 119);
-        line-height: 1.2;
-        margin-top: 0;
-        margin-bottom: 77px;
-      }
-      .banner {
-        display: block;
-        background-image: url('../jpeg/Map Image.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; 
-      }
-      .blok-contact {
-        display: flex;
-        width: 940px;
-        margin: 0 auto;
-      }
-      .message {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0 auto;
-        width: 240px;
-        height: 66px;
-        border-radius: 3px;
-        background-color: rgb(254, 209, 54);
-        font-size: 18px;
-        color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        line-height: 1.2;
-        text-align: center;
-        font-family: 'Montserrat'; 
-        font-weight: 700;
-        cursor: pointer;
-      }
-      .form input::placeholder {
-        font-family: 'Montserrat'; 
-        font-weight: bold;
-        font-size: 14px;
-        color: rgb(187, 187, 187);
-        text-transform: uppercase;
-      }
-      .form {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-      }
-      .info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .form input {
-        font-family: 'Montserrat'; 
-        font-weight: bold;
-        width: 455px;
-        margin-bottom: 27px;
-        padding-top: 20px;
-        padding-left: 20px;
-        cursor: pointer;
-      }
-      .your-message {
-        padding-bottom: 180px;
-      }
-      .info input {
-        padding-bottom: 20px;
-      }
-      .info input[type="text"]:valid,
-      .info input[type="email"]:valid,
-      .your-message[type="text"]:valid {
-        border-color: green;
-      }
-      .info input[type="text"]:invalid,
-      .info input[type="email"]:invalid,
-      .your-message[type="text"]:invalid {
-        border-color: red;
-      }  */
