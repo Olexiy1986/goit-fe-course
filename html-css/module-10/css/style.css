@@ -320,20 +320,27 @@
           padding-left: 0;
         }
         .list-icon a {
-          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 56px;
-          background-repeat: no-repeat;
-          background-position: center;
           height: 56px;
           padding: 0;
           background-color: rgb(252, 227, 138);
           border: 1px solid white;
-          transition: background-color 200ms linear;
         }
-        .facebook:hover,
-        .twitter:hover,
-        .pinterest:hover,
-        .instagram:hover {
+        .list-icon svg {
+          display: block;
+          width: 25px;
+          height: 25px;
+          fill: #f38181;
+          transition: fill 200ms linear;
+        }
+        .list-icon a:hover svg {
+          background-color: #f38181;
+          fill: #c6cacc;
+        }
+        .list-icon li:hover a {
           background-color: #f38181;
         }
         .footer-content {
