@@ -277,13 +277,17 @@
         .list-team__item {
           position: relative;
         }
-        .list-team:hover .overlay {
+        .list-team__item:hover .overlay {
           opacity: 1;
           -webkit-transform: translate(-10px, -10px);
               -ms-transform: translate(-10px, -10px);
                   transform: translate(-10px, -10px);
         }
-        .list-team:hover .team-link__img {
+
+
+
+
+        .list-team__item:hover .team-link__img {
           -webkit-transform: translate(-10px, -10px);
               -ms-transform: translate(-10px, -10px);
                   transform: translate(-10px, -10px);
